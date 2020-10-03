@@ -1,20 +1,24 @@
-main {
-  background-image: url("../images/shutterstock_1413246461.png");
-  color: white;
+.header__logo {
+  background-image: url(../images/compost-example.png);
+  background-color: #cccccc;
   height: 400px;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 auto;
 }
 
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  margin: 0;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.header {
+  margin: 0 0 2rem 0;
+  text-align: center;
+}
+
+.header__logo {
+  font-size: 2rem;
+}
+
+.header__nav {
+  font-size: 1.25rem;
+  font-family: Roboto;
+  padding-top: 2rem;
+  text-decoration: none;
 }

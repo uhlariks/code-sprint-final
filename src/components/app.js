@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import HomePage from "../pages/home-page";
-import InformationPage from "../pages/information-page";
 import Location from "../pages/location-page";
 import QuizPage from "../pages/quiz-page";
 import Footer from "./footer";
@@ -15,10 +14,6 @@ function App() {
       <Header></Header>
 
       <Switch>
-        <Route path="/information">
-          <InformationPage></InformationPage>
-        </Route>
-
         <Route path="/quiz">
           <QuizPage></QuizPage>
         </Route>
