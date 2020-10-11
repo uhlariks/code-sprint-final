@@ -1,0 +1,94 @@
+.trivia-item__question {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(14, 14, 56);
+}
+
+.trivia-item__answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  gap: 1rem;
+}
+
+.trivia-item__button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  border: none;
+  background-color: #1dbfff;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 2px solid transparent;
+  transition: background 0.15s, tranform 0.15s, border-color 0.15s;
+}
+
+.play-again__button {
+  margin-left: 40%;
+  margin-righ: 40%;
+  width: 20%;
+  padding: 1.5rem 0rem;
+  cursor: pointer;
+  border: none;
+  background-color: #1dbfff;
+
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.play-again__button:hover {
+  margin-left: 40%;
+  margin-righ: 40%;
+  width: 20%;
+  padding: 1.5rem 0rem;
+  cursor: pointer;
+  border: none;
+  background-image: linear-gradient(to right, #39b54a, #1dbfff);
+  transform: rotate(1deg) scale(1.01);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+.trivia-item__button:hover {
+  background-image: linear-gradient(to right, #39b54a, #1dbfff);
+  transform: rotate(1deg) scale(1.01);
+}
+
+.trivia-item__button:active {
+  background: rgb(2, 2, 58);
+  transform: rotate(2deg) scale(1.02);
+}
+
+.trivia-item__button:focus {
+  border-color: rgb(2, 2, 58);
+}
+
+.trivia-item__button.trivia-item__button--disabled {
+  background: rgb(202, 231, 255);
+}
+
+.trivia-item__button.trivia-item__button--correct {
+  background: #39b54a;
+}
+
+.trivia-item__button.trivia-item__button--incorrect {
+  background: #c02626;
+}

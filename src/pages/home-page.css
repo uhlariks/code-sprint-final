@@ -1,27 +1,37 @@
-h1 {
+.home-page__title {
   text-align: center;
   color: rgb(14, 14, 56);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 600;
-  font-size: 2.5em;
+  font-size: 2.25em;
 }
 
-h2 {
-  text-align: center;
+.home-page__header {
+  text-align: left;
+  margin-left: 15%;
+  margin-right: 15%;
   color: rgb(14, 14, 56);
-  font-family: Roboto;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
   font-size: 1.5em;
 }
 
-p {
-  margin-left: 7rem;
-  margin-right: 7rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
+.home-page__subheader {
+  text-align: left;
+  color: #39b54a;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.home-page__text {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
   color: rgb(14, 14, 56);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1em;
 }

@@ -1,6 +1,47 @@
+.location-page__title {
+  text-align: center;
+  color: rgb(14, 14, 56);
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 2.25em;
+}
+
+.location-info__text {
+  margin-left: 0;
+  margin-right: 0;
+  color: rgb(14, 14, 56);
+  text-align: left;
+  font-weight: 400;
+}
+
+ul {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: rgb(14, 14, 56);
+  text-align: left;
+  padding-left: 4%;
+}
+
+.location-info__subheader {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #39b54a;
+}
+
+.location-info__header {
+  text-align: left;
+  padding-top: 1rem;
+  color: rgb(14, 14, 56);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
 .game-form {
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
   margin: 2rem auto;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
@@ -14,9 +55,9 @@
 .game-form__label {
   width: 100%;
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin-bottom: 1rem;
-  text-align: left;
+  text-align: center;
 }
 
 .game-form__input {
